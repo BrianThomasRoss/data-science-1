@@ -107,6 +107,9 @@ async def determine_eligibility(
 
         # iterate through every zip in Spokane County, on match
         # go to next step in eligibility check
+
+        # TODO: Rewrite as class with switches
+        # TODO: Move higher order logic outside endpoint
         for z in user["zipcode"]:
 
             if int(z) == int(zipCode):
