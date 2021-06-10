@@ -1,8 +1,13 @@
 .DS_Store
+Desktop.ini
+.idea/
 .vscode/
+.python-version
+poetry.lock
 temporary.db
 
 # Byte-compiled / optimized / DLL files
+# Consider setting PYTHONDONTWRITEBYTECODE=1 in your local environment
 __pycache__/
 *.py[cod]
 *$py.class
